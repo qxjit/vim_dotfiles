@@ -12,7 +12,7 @@ set hidden
 set backspace=indent,eol,start
 set textwidth=0 nosmartindent tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 set ruler
-set dir=/tmp
+set dir=/tmp//
 
 let html_use_css=1
 let html_number_lines=0

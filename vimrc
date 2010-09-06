@@ -25,7 +25,7 @@ let g:clj_highlight_contrib = 1
 let g:clj_paren_rainbow = 1
 
 let g:AckAllFiles = 0
-let g:AckCmd = 'ack --type-add ruby=.feature --ignore-dir=tmp'
+let g:AckCmd = 'ack --type-add ruby=.feature --type-add objective-j=.j --ignore-dir=tmp'
 
 let g:gist_clip_command = 'pbcopy'
 let g:gist_detect_filetype = 1
@@ -38,6 +38,12 @@ let g:fuzzy_ceiling = 50000
 let g:no_html_toolbar = 'yes'
 
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
+
+autocmd BufNewFile,BufRead *.j setlocal filetype=objc
+autocmd FileType objc setlocal tabstop=4 shiftwidth=4 softtabstop=4
+
+autocmd BufNewFile,BufRead *.scss setlocal filetype=css
+autocmd FileType css setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
 autocmd FileType tex setlocal textwidth=78
 autocmd BufNewFile,BufRead *.txt setlocal textwidth=78

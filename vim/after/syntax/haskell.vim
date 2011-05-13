@@ -1,1 +1,6 @@
-highlight Delimiter guifg=DimGray
+highlight hsDelimiter guifg=DimGray
+highlight hsType guifg=LightSteelBlue
+highlight hsStructure guifg=Bisque4
+highlight hsModuleStartLabel guifg=Bisque4
+highlight hsExportModuleLabel guifg=Bisque4
+highlight hsModuleWhereLabel guifg=Bisque4

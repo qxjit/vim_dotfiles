@@ -37,6 +37,10 @@ let g:fuzzy_ceiling = 50000
 
 let g:no_html_toolbar = 'yes'
 
+let hs_highlight_delimiters = 1
+let hs_highlight_boolean = 1
+let hs_highlight_debug = 1
+
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
 autocmd BufNewFile,BufRead *.j setlocal filetype=objc
